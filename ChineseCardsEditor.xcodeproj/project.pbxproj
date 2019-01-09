@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A756EF11F3F59FE008D4B27 /* JSONSerializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A756EF01F3F59FE008D4B27 /* JSONSerializable.swift */; };
 		0ABAD8871F3E2BE400986C73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABAD8861F3E2BE400986C73 /* AppDelegate.swift */; };
 		0ABAD8891F3E2BE400986C73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABAD8881F3E2BE400986C73 /* ViewController.swift */; };
 		0ABAD88C1F3E2BE400986C73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0ABAD88A1F3E2BE400986C73 /* Main.storyboard */; };
@@ -14,6 +15,12 @@
 		0ABAD8911F3E2BE400986C73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0ABAD88F1F3E2BE400986C73 /* LaunchScreen.storyboard */; };
 		0ABAD89C1F3E2BE400986C73 /* ChineseCardsEditorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABAD89B1F3E2BE400986C73 /* ChineseCardsEditorTests.swift */; };
 		0ABAD8A71F3E2BE400986C73 /* ChineseCardsEditorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABAD8A61F3E2BE400986C73 /* ChineseCardsEditorUITests.swift */; };
+		0ABAD8B51F3E2CE000986C73 /* EditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABAD8B41F3E2CE000986C73 /* EditorView.swift */; };
+		0ABAD8B71F3E2E8F00986C73 /* microphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ABAD8B61F3E2E8F00986C73 /* microphone.png */; };
+		0ABAD8B91F3E2F9100986C73 /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ABAD8B81F3E2F9100986C73 /* add.png */; };
+		0ABAD8BB1F3E34E600986C73 /* SelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABAD8BA1F3E34E600986C73 /* SelectorView.swift */; };
+		0ABAD8BD1F3E4B9A00986C73 /* backButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ABAD8BC1F3E4B9A00986C73 /* backButton.png */; };
+		0ABAD8BF1F3E4C2D00986C73 /* dismissIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ABAD8BE1F3E4C2D00986C73 /* dismissIcon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A756EF01F3F59FE008D4B27 /* JSONSerializable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONSerializable.swift; sourceTree = "<group>"; };
 		0ABAD8831F3E2BE400986C73 /* ChineseCardsEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChineseCardsEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ABAD8861F3E2BE400986C73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0ABAD8881F3E2BE400986C73 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +55,12 @@
 		0ABAD8A21F3E2BE400986C73 /* ChineseCardsEditorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChineseCardsEditorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ABAD8A61F3E2BE400986C73 /* ChineseCardsEditorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChineseCardsEditorUITests.swift; sourceTree = "<group>"; };
 		0ABAD8A81F3E2BE400986C73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0ABAD8B41F3E2CE000986C73 /* EditorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditorView.swift; sourceTree = "<group>"; };
+		0ABAD8B61F3E2E8F00986C73 /* microphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = microphone.png; sourceTree = "<group>"; };
+		0ABAD8B81F3E2F9100986C73 /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add.png; sourceTree = "<group>"; };
+		0ABAD8BA1F3E34E600986C73 /* SelectorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectorView.swift; sourceTree = "<group>"; };
+		0ABAD8BC1F3E4B9A00986C73 /* backButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backButton.png; sourceTree = "<group>"; };
+		0ABAD8BE1F3E4C2D00986C73 /* dismissIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dismissIcon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +113,17 @@
 			children = (
 				0ABAD8861F3E2BE400986C73 /* AppDelegate.swift */,
 				0ABAD8881F3E2BE400986C73 /* ViewController.swift */,
+				0ABAD8B41F3E2CE000986C73 /* EditorView.swift */,
+				0A756EF01F3F59FE008D4B27 /* JSONSerializable.swift */,
+				0ABAD8BA1F3E34E600986C73 /* SelectorView.swift */,
+				0ABAD8BC1F3E4B9A00986C73 /* backButton.png */,
+				0ABAD8BE1F3E4C2D00986C73 /* dismissIcon.png */,
 				0ABAD88A1F3E2BE400986C73 /* Main.storyboard */,
 				0ABAD88D1F3E2BE400986C73 /* Assets.xcassets */,
 				0ABAD88F1F3E2BE400986C73 /* LaunchScreen.storyboard */,
 				0ABAD8921F3E2BE400986C73 /* Info.plist */,
+				0ABAD8B61F3E2E8F00986C73 /* microphone.png */,
+				0ABAD8B81F3E2F9100986C73 /* add.png */,
 			);
 			path = ChineseCardsEditor;
 			sourceTree = "<group>";
@@ -236,7 +257,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0ABAD8911F3E2BE400986C73 /* LaunchScreen.storyboard in Resources */,
+				0ABAD8B71F3E2E8F00986C73 /* microphone.png in Resources */,
 				0ABAD88E1F3E2BE400986C73 /* Assets.xcassets in Resources */,
+				0ABAD8BF1F3E4C2D00986C73 /* dismissIcon.png in Resources */,
+				0ABAD8B91F3E2F9100986C73 /* add.png in Resources */,
+				0ABAD8BD1F3E4B9A00986C73 /* backButton.png in Resources */,
 				0ABAD88C1F3E2BE400986C73 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,7 +288,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0ABAD8891F3E2BE400986C73 /* ViewController.swift in Sources */,
+				0ABAD8BB1F3E34E600986C73 /* SelectorView.swift in Sources */,
+				0A756EF11F3F59FE008D4B27 /* JSONSerializable.swift in Sources */,
 				0ABAD8871F3E2BE400986C73 /* AppDelegate.swift in Sources */,
+				0ABAD8B51F3E2CE000986C73 /* EditorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,6 +544,7 @@
 				0ABAD8AD1F3E2BE400986C73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0ABAD8AE1F3E2BE400986C73 /* Build configuration list for PBXNativeTarget "ChineseCardsEditorTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +553,7 @@
 				0ABAD8B01F3E2BE400986C73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0ABAD8B11F3E2BE400986C73 /* Build configuration list for PBXNativeTarget "ChineseCardsEditorUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +562,7 @@
 				0ABAD8B31F3E2BE400986C73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
